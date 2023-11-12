@@ -1,8 +1,33 @@
 #header {
-    height: 5rem;
+    padding: 1.5rem 1rem;
+    /*background: linear-gradient(
+        var(--main-yellow),
+        var(--main-yellow),
+        var(--main-yellow),
+        var(--soft-light));*/
+    background-color: var(--main-yellow);
+    border-bottom: solid 0.15rem var(--normal-light);
+    color: var(--dark-blue);
+}
+
+#header .ico {
+    font-size: 1.6rem;
+}
+
+#header > div > .fa-box {
+    font-size: 2rem;
+    margin-right: 0.7rem;
+}
+
+#header > .fa-bars {
+    padding: 0.7rem 0.8rem;
+}
+
+#header > .fa-bars:hover {
+    background: var(--soft-light);
+    border-radius: 0.5rem;
 }
 
 #main {
     flex-grow: 1;
-    background-color: red;
 }
